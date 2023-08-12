@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+<!--    <GridLayout xmlns:android1="http://schemas.android.com/apk/res/android"-->
+<!--        android1:layout_width="wrap_content"-->
+<!--        android1:layout_height="wrap_content"-->
+<!--        android1:columnCount="3"-->
+<!--        android1:rowCount="3">-->
+
+<!--        <TextView-->
+<!--            android1:id="@+id/txt_0"-->
+<!--            android1:layout_width="80dp"-->
+<!--            android1:layout_height="80dp"-->
+<!--            android:layout_gravity="center"-->
+<!--            android1:background="@drawable/boder"-->
+<!--            android:gravity="center"-->
+<!--            android1:tag="0"-->
+<!--            android1:textAlignment="center"-->
+<!--            android1:textSize="15pt"-->
+<!--            android1:textStyle="bold" />-->
+
+<!--        <TextView-->
+<!--            android1:id="@+id/txt_1"-->
+<!--            android1:layout_width="80dp"-->
+<!--            android1:layout_height="80dp"-->
+<!--            android:layout_gravity="center"-->
+<!--            android1:background="@drawable/boder"-->
+<!--            android:gravity="center"-->
+<!--            android1:tag="1"-->
+<!--            android1:textAlignment="center"-->
+<!--            android1:textSize="15pt"-->
+<!--            android1:textStyle="bold" />-->
+
+<!--        <TextView-->
+<!--            android1:id="@+id/txt_2"-->
+<!--            android1:layout_width="80dp"-->
+<!--            android1:layout_height="80dp"-->
+<!--            android:layout_gravity="center"-->
+<!--            android1:background="@drawable/boder"-->
+<!--            android:gravity="center"-->
+<!--            android1:tag="2"-->
+<!--            android1:textAlignment="center"-->
+<!--            android1:textSize="15pt"-->
+<!--            android1:textStyle="bold" />-->
+
+<!--        <TextView-->
+<!--            android1:id="@+id/txt_3"-->
+<!--            android1:layout_width="80dp"-->
+<!--            android1:layout_height="80dp"-->
+<!--            android:layout_gravity="center"-->
+<!--            android1:background="@drawable/boder"-->
+<!--            android:gravity="center"-->
+<!--            android1:tag="3"-->
+<!--            android1:textAlignment="center"-->
+<!--            android1:textSize="15pt"-->
+<!--            android1:textStyle="bold" />-->
+
+<!--        <TextView-->
+<!--            android1:id="@+id/txt_4"-->
+<!--            android1:layout_width="80dp"-->
+<!--            android1:layout_height="80dp"-->
+<!--            android:layout_gravity="center"-->
+<!--            android1:background="@drawable/boder"-->
+<!--            android:gravity="center"-->
+<!--            android1:tag="4"-->
+<!--            android1:textAlignment="center"-->
+<!--            android1:textSize="15pt"-->
+<!--            android1:textStyle="bold" />-->
+
+<!--        <TextView-->
+<!--            android1:id="@+id/txt_5"-->
+<!--            android1:layout_width="80dp"-->
+<!--            android1:layout_height="80dp"-->
+<!--            android:layout_gravity="center"-->
+<!--            android1:background="@drawable/boder"-->
+<!--            android:gravity="center"-->
+<!--            android1:tag="5"-->
+<!--            android1:textAlignment="center"-->
+<!--            android1:textSize="15pt"-->
+<!--            android1:textStyle="bold" />-->
+
+<!--        <TextView-->
+<!--            android1:id="@+id/txt_6"-->
+<!--            android1:layout_width="80dp"-->
+<!--            android1:layout_height="80dp"-->
+<!--            android:layout_gravity="center"-->
+<!--            android1:background="@drawable/boder"-->
+<!--            android:gravity="center"-->
+<!--            android1:tag="6"-->
+<!--            android1:textAlignment="center"-->
+<!--            android1:textSize="15pt"-->
+<!--            android1:textStyle="bold" />-->
+
+<!--        <TextView-->
+<!--            android1:id="@+id/txt_7"-->
+<!--            android1:layout_width="80dp"-->
+<!--            android1:layout_height="80dp"-->
+<!--            android:layout_gravity="center"-->
+<!--            android1:background="@drawable/boder"-->
+<!--            android:gravity="center"-->
+<!--            android1:tag="7"-->
+<!--            android1:textAlignment="center"-->
+<!--            android1:textSize="15pt"-->
+<!--            android1:textStyle="bold" />-->
+
+<!--        <TextView-->
+<!--            android1:id="@+id/txt_8"-->
+<!--            android1:layout_width="80dp"-->
+<!--            android1:layout_height="80dp"-->
+<!--            android:layout_gravity="center"-->
+<!--            android1:background="@drawable/boder"-->
+<!--            android:gravity="center"-->
+<!--            android1:tag="8"-->
+<!--            android1:textAlignment="center"-->
+<!--            android1:textSize="15pt"-->
+<!--            android1:textStyle="bold" />-->
+<!--    </GridLayout>-->
+    <WebView
+        android:id="@+id/webview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+</LinearLayout>
